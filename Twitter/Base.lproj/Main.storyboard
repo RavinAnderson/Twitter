@@ -12,7 +12,7 @@
         <!--Login View Controller-->
         <scene sceneID="Ptj-FJ-hFk">
             <objects>
-                <viewController id="XUG-BJ-P1u" customClass="LoginViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="XUG-BJ-P1u" customClass="LoginViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YyH-NF-Jqx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,9 +51,9 @@
         <!--Home-->
         <scene sceneID="Qvu-vl-m2y">
             <objects>
-                <tableViewController id="XRQ-ha-Ju6" customClass="HomeTableViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController modalPresentationStyle="fullScreen" id="XRQ-ha-Ju6" customClass="HomeTableViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oTn-wm-4t9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -157,7 +157,7 @@
         <!--Tweet View Controller-->
         <scene sceneID="Rmq-j0-ESY">
             <objects>
-                <viewController id="b5s-lo-ogm" customClass="TweetViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="b5s-lo-ogm" customClass="TweetViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SUf-Z0-jYt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -206,9 +206,9 @@
         <!--Navigation Controller-->
         <scene sceneID="SHO-vg-5rc">
             <objects>
-                <navigationController id="pMs-Op-d9n" sceneMemberID="viewController">
+                <navigationController modalPresentationStyle="fullScreen" id="pMs-Op-d9n" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cyA-oj-zyG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.2996249527" green="0.82460983460000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
@@ -226,7 +226,7 @@
         <!--Tweet Navigation Controller-->
         <scene sceneID="qRB-8Z-dq1">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gcw-6k-y9r" userLabel="Tweet Navigation Controller" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="gcw-6k-y9r" userLabel="Tweet Navigation Controller" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="l5Q-Be-mtX">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

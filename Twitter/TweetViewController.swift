@@ -33,7 +33,7 @@ class TweetViewController: UIViewController {
             })
         }
         else {
-            dismiss(animated: true, completion: nil)
+            self.dismiss(animated: true, completion: nil)
         }
     }
     

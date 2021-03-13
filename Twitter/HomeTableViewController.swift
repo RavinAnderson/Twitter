@@ -47,7 +47,7 @@ class HomeTableViewController: UITableViewController {
             self.myRefreshControl.endRefreshing()
             
         }, failure: { (Error) in
-            print("Could not retrieve tweet! oh no!!")
+            print(Error.localizedDescription)
         })
     }
     
